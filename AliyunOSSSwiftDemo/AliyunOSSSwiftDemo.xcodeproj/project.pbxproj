@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07507F2251B4535DA6B9C3BF /* Pods_AliyunOSSSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B71D3AE8F615D4C93C7F7D /* Pods_AliyunOSSSwiftDemo.framework */; };
+		2C008B892E6EA7150027BB15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C008B7F2E6EA7150027BB15 /* AppDelegate.swift */; };
+		2C008B8A2E6EA7150027BB15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C008B862E6EA7150027BB15 /* SceneDelegate.swift */; };
+		2C008B8B2E6EA7150027BB15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C008B872E6EA7150027BB15 /* ViewController.swift */; };
+		2C008B8C2E6EA7150027BB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C008B802E6EA7150027BB15 /* Assets.xcassets */; };
+		2C008B8E2E6EA7150027BB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C008B832E6EA7150027BB15 /* LaunchScreen.storyboard */; };
+		2C008B8F2E6EA7150027BB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C008B852E6EA7150027BB15 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10B71D3AE8F615D4C93C7F7D /* Pods_AliyunOSSSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunOSSSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C008B372E6EA6960027BB15 /* AliyunOSSSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliyunOSSSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C008B7F2E6EA7150027BB15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C008B802E6EA7150027BB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C008B812E6EA7150027BB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C008B822E6EA7150027BB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C008B842E6EA7150027BB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C008B862E6EA7150027BB15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C008B872E6EA7150027BB15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB3A1AE9124E6A403D07C472 /* Pods-AliyunOSSSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunOSSSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-AliyunOSSSwiftDemo/Pods-AliyunOSSSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE5CEA0B35698CD1F0E0362 /* Pods-AliyunOSSSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunOSSSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-AliyunOSSSwiftDemo/Pods-AliyunOSSSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C008B342E6EA6960027BB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07507F2251B4535DA6B9C3BF /* Pods_AliyunOSSSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C008B2E2E6EA6960027BB15 = {
+			isa = PBXGroup;
+			children = (
+				2C008B882E6EA7150027BB15 /* AliyunOSSSwiftDemo */,
+				2C008B382E6EA6960027BB15 /* Products */,
+				B642487B4379A5F63164927F /* Pods */,
+				C5EE5C36A24251C654196CF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C008B382E6EA6960027BB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C008B372E6EA6960027BB15 /* AliyunOSSSwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C008B882E6EA7150027BB15 /* AliyunOSSSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2C008B7F2E6EA7150027BB15 /* AppDelegate.swift */,
+				2C008B802E6EA7150027BB15 /* Assets.xcassets */,
+				2C008B812E6EA7150027BB15 /* Info.plist */,
+				2C008B832E6EA7150027BB15 /* LaunchScreen.storyboard */,
+				2C008B852E6EA7150027BB15 /* Main.storyboard */,
+				2C008B862E6EA7150027BB15 /* SceneDelegate.swift */,
+				2C008B872E6EA7150027BB15 /* ViewController.swift */,
+			);
+			path = AliyunOSSSwiftDemo;
+			sourceTree = "<group>";
+		};
+		B642487B4379A5F63164927F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB3A1AE9124E6A403D07C472 /* Pods-AliyunOSSSwiftDemo.debug.xcconfig */,
+				FEE5CEA0B35698CD1F0E0362 /* Pods-AliyunOSSSwiftDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5EE5C36A24251C654196CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10B71D3AE8F615D4C93C7F7D /* Pods_AliyunOSSSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C008B362E6EA6960027BB15 /* AliyunOSSSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C008B4A2E6EA6970027BB15 /* Build configuration list for PBXNativeTarget "AliyunOSSSwiftDemo" */;
+			buildPhases = (
+				98AEA0416AC90C7E2889743D /* [CP] Check Pods Manifest.lock */,
+				2C008B332E6EA6960027BB15 /* Sources */,
+				2C008B342E6EA6960027BB15 /* Frameworks */,
+				2C008B352E6EA6960027BB15 /* Resources */,
+				C9D0824C1911C4A4A39D85C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliyunOSSSwiftDemo;
+			productName = AliyunOSSSwiftDemo;
+			productReference = 2C008B372E6EA6960027BB15 /* AliyunOSSSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C008B2F2E6EA6960027BB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2C008B362E6EA6960027BB15 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 2C008B322E6EA6960027BB15 /* Build configuration list for PBXProject "AliyunOSSSwiftDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C008B2E2E6EA6960027BB15;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C008B382E6EA6960027BB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C008B362E6EA6960027BB15 /* AliyunOSSSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C008B352E6EA6960027BB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C008B8C2E6EA7150027BB15 /* Assets.xcassets in Resources */,
+				2C008B8E2E6EA7150027BB15 /* LaunchScreen.storyboard in Resources */,
+				2C008B8F2E6EA7150027BB15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98AEA0416AC90C7E2889743D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AliyunOSSSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D0824C1911C4A4A39D85C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AliyunOSSSwiftDemo/Pods-AliyunOSSSwiftDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AliyunOSSSwiftDemo/Pods-AliyunOSSSwiftDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AliyunOSSSwiftDemo/Pods-AliyunOSSSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C008B332E6EA6960027BB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C008B892E6EA7150027BB15 /* AppDelegate.swift in Sources */,
+				2C008B8A2E6EA7150027BB15 /* SceneDelegate.swift in Sources */,
+				2C008B8B2E6EA7150027BB15 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C008B832E6EA7150027BB15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C008B822E6EA7150027BB15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2C008B852E6EA7150027BB15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C008B842E6EA7150027BB15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C008B4B2E6EA6970027BB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3A1AE9124E6A403D07C472 /* Pods-AliyunOSSSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliyunOSSSwiftDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isylar.AliyunOSSSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C008B4C2E6EA6970027BB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE5CEA0B35698CD1F0E0362 /* Pods-AliyunOSSSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliyunOSSSwiftDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isylar.AliyunOSSSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C008B4D2E6EA6970027BB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C008B4E2E6EA6970027BB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C008B322E6EA6960027BB15 /* Build configuration list for PBXProject "AliyunOSSSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C008B4D2E6EA6970027BB15 /* Debug */,
+				2C008B4E2E6EA6970027BB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C008B4A2E6EA6970027BB15 /* Build configuration list for PBXNativeTarget "AliyunOSSSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C008B4B2E6EA6970027BB15 /* Debug */,
+				2C008B4C2E6EA6970027BB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C008B2F2E6EA6960027BB15 /* Project object */;
+}

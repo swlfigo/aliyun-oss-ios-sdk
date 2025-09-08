@@ -1,0 +1,16 @@
+PODS:
+  - AliyunOSSiOS (2.11.1)
+
+DEPENDENCIES:
+  - AliyunOSSiOS (from `../`)
+
+EXTERNAL SOURCES:
+  AliyunOSSiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AliyunOSSiOS: f44cefc04743094e2a7edcee616f1ada7ce63558
+
+PODFILE CHECKSUM: d924f3e099a45a027f72e1f634e30fa1c75158b5
+
+COCOAPODS: 1.16.2
